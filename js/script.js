@@ -19,7 +19,10 @@ function onLinkClick(e) {
       top: sectionValue,
       behavior: "smooth",
     });
-    headerMenu.classList.remove("active-menu");
+    if (headerMenu.classList.contains("active-menu")) {
+      document.body.classList.remove("block-scroll");
+      headerMenu.classList.remove("active-menu");
+    }
     e.preventDefault();
   }
 }
