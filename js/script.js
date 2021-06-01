@@ -1,7 +1,7 @@
 "use strict";
 
 //Scrolling
-const links = document.querySelectorAll("a[data-goto]");
+const links = document.querySelectorAll("[data-goto]");
 
 links.forEach((link) => {
   link.addEventListener("click", onLinkClick);
