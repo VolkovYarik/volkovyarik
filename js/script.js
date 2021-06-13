@@ -30,7 +30,7 @@ function onLinkClick(e) {
 //Burger menu
 
 const burgerMenu = document.querySelector(".menu-burger");
-const headerMenu = document.querySelector(".header-menu");
+const headerMenu = document.querySelector(".head-menu");
 
 burgerMenu.addEventListener("click", (e) => {
   document.body.classList.toggle("block-scroll");
